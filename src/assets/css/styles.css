@@ -1,0 +1,86 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+header {
+    background-color: #343a40;
+    color: white;
+    padding: 1.5rem 0;
+    text-align: center;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #495057;
+}
+nav a {
+    color: white;
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    text-align: center;
+}
+nav a:hover {
+    background-color: #6c757d;
+}
+section {
+    padding: 2rem;
+    margin: 2rem auto;
+    max-width: 1000px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+.about-container {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+.about-container img {
+    max-width: 200px;
+    border-radius: 50%;
+}
+.about-text {
+    flex: 1;
+}
+.project img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.project {
+    margin-bottom: 2rem;
+}
+.project h3 {
+    margin-top: 0;
+}
+.blog-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, auto);
+    gap: 1.5rem;
+}
+.blog-item {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+.blog-item img {
+    width: 100%;
+    height: auto;
+}
+.blog-info {
+    padding: 1rem;
+}
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 0rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
